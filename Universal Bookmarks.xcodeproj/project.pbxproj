@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E6DB51A2C0CFC04001CA69F /* UniversalBookmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6DB5192C0CFC04001CA69F /* UniversalBookmarksApp.swift */; };
+		5E6DB51C2C0CFC04001CA69F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6DB51B2C0CFC04001CA69F /* ContentView.swift */; };
+		5E6DB5202C0CFC05001CA69F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E6DB51F2C0CFC05001CA69F /* Assets.xcassets */; };
+		5E6DB5232C0CFC05001CA69F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E6DB5222C0CFC05001CA69F /* Preview Assets.xcassets */; };
+		5E6DB52E2C0CFCC9001CA69F /* Bookmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6DB52A2C0CFCC9001CA69F /* Bookmark.swift */; };
+		5E6DB52F2C0CFCC9001CA69F /* BookmarkDataContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6DB52B2C0CFCC9001CA69F /* BookmarkDataContainer.swift */; };
+		5E6DB5302C0CFCC9001CA69F /* Browser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6DB52C2C0CFCC9001CA69F /* Browser.swift */; };
+		5E6DB5372C0CFE17001CA69F /* AddBookmarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6DB5312C0CFE17001CA69F /* AddBookmarkView.swift */; };
+		5E6DB5382C0CFE17001CA69F /* BookmarksScrollerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6DB5322C0CFE17001CA69F /* BookmarksScrollerView.swift */; };
+		5E6DB5392C0CFE17001CA69F /* BookmarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6DB5332C0CFE17001CA69F /* BookmarkView.swift */; };
+		5E6DB53A2C0CFE17001CA69F /* EditBookmarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6DB5342C0CFE17001CA69F /* EditBookmarkView.swift */; };
+		5E6DB53B2C0CFE17001CA69F /* TopMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6DB5352C0CFE17001CA69F /* TopMenuView.swift */; };
+		5E6DB53E2C0CFE3C001CA69F /* BrowserTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6DB53D2C0CFE3C001CA69F /* BrowserTools.swift */; };
+		5E6DB5402C0D0BB4001CA69F /* BrowserLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6DB53F2C0D0BB4001CA69F /* BrowserLoadingView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5E6DB5162C0CFC04001CA69F /* Universal Bookmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Universal Bookmarks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E6DB5192C0CFC04001CA69F /* UniversalBookmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversalBookmarksApp.swift; sourceTree = "<group>"; };
+		5E6DB51B2C0CFC04001CA69F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5E6DB51F2C0CFC05001CA69F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E6DB5222C0CFC05001CA69F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5E6DB5242C0CFC05001CA69F /* UniversalBookmarks.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UniversalBookmarks.entitlements; sourceTree = "<group>"; };
+		5E6DB52A2C0CFCC9001CA69F /* Bookmark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bookmark.swift; sourceTree = "<group>"; };
+		5E6DB52B2C0CFCC9001CA69F /* BookmarkDataContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookmarkDataContainer.swift; sourceTree = "<group>"; };
+		5E6DB52C2C0CFCC9001CA69F /* Browser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Browser.swift; sourceTree = "<group>"; };
+		5E6DB5312C0CFE17001CA69F /* AddBookmarkView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddBookmarkView.swift; sourceTree = "<group>"; };
+		5E6DB5322C0CFE17001CA69F /* BookmarksScrollerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookmarksScrollerView.swift; sourceTree = "<group>"; };
+		5E6DB5332C0CFE17001CA69F /* BookmarkView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookmarkView.swift; sourceTree = "<group>"; };
+		5E6DB5342C0CFE17001CA69F /* EditBookmarkView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditBookmarkView.swift; sourceTree = "<group>"; };
+		5E6DB5352C0CFE17001CA69F /* TopMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopMenuView.swift; sourceTree = "<group>"; };
+		5E6DB53D2C0CFE3C001CA69F /* BrowserTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowserTools.swift; sourceTree = "<group>"; };
+		5E6DB53F2C0D0BB4001CA69F /* BrowserLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserLoadingView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E6DB5132C0CFC04001CA69F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E6DB50D2C0CFC04001CA69F = {
+			isa = PBXGroup;
+			children = (
+				5E6DB5182C0CFC04001CA69F /* MacOS */,
+				5E6DB5172C0CFC04001CA69F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E6DB5172C0CFC04001CA69F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E6DB5162C0CFC04001CA69F /* Universal Bookmarks.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E6DB5182C0CFC04001CA69F /* MacOS */ = {
+			isa = PBXGroup;
+			children = (
+				5E6DB53C2C0CFE2F001CA69F /* Tools */,
+				5E6DB5362C0CFE17001CA69F /* Views */,
+				5E6DB52D2C0CFCC9001CA69F /* BookmarkData */,
+				5E6DB5192C0CFC04001CA69F /* UniversalBookmarksApp.swift */,
+				5E6DB51B2C0CFC04001CA69F /* ContentView.swift */,
+				5E6DB51F2C0CFC05001CA69F /* Assets.xcassets */,
+				5E6DB5242C0CFC05001CA69F /* UniversalBookmarks.entitlements */,
+				5E6DB5212C0CFC05001CA69F /* Preview Content */,
+			);
+			path = MacOS;
+			sourceTree = "<group>";
+		};
+		5E6DB5212C0CFC05001CA69F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5E6DB5222C0CFC05001CA69F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5E6DB52D2C0CFCC9001CA69F /* BookmarkData */ = {
+			isa = PBXGroup;
+			children = (
+				5E6DB52A2C0CFCC9001CA69F /* Bookmark.swift */,
+				5E6DB52B2C0CFCC9001CA69F /* BookmarkDataContainer.swift */,
+				5E6DB52C2C0CFCC9001CA69F /* Browser.swift */,
+			);
+			path = BookmarkData;
+			sourceTree = "<group>";
+		};
+		5E6DB5362C0CFE17001CA69F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5E6DB5312C0CFE17001CA69F /* AddBookmarkView.swift */,
+				5E6DB5322C0CFE17001CA69F /* BookmarksScrollerView.swift */,
+				5E6DB5332C0CFE17001CA69F /* BookmarkView.swift */,
+				5E6DB5342C0CFE17001CA69F /* EditBookmarkView.swift */,
+				5E6DB5352C0CFE17001CA69F /* TopMenuView.swift */,
+				5E6DB53F2C0D0BB4001CA69F /* BrowserLoadingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5E6DB53C2C0CFE2F001CA69F /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				5E6DB53D2C0CFE3C001CA69F /* BrowserTools.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E6DB5152C0CFC04001CA69F /* Universal Bookmarks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E6DB5272C0CFC05001CA69F /* Build configuration list for PBXNativeTarget "Universal Bookmarks" */;
+			buildPhases = (
+				5E6DB5122C0CFC04001CA69F /* Sources */,
+				5E6DB5132C0CFC04001CA69F /* Frameworks */,
+				5E6DB5142C0CFC04001CA69F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Universal Bookmarks";
+			productName = "Universal Bookmarks";
+			productReference = 5E6DB5162C0CFC04001CA69F /* Universal Bookmarks.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E6DB50E2C0CFC04001CA69F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					5E6DB5152C0CFC04001CA69F = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 5E6DB5112C0CFC04001CA69F /* Build configuration list for PBXProject "Universal Bookmarks" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E6DB50D2C0CFC04001CA69F;
+			productRefGroup = 5E6DB5172C0CFC04001CA69F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E6DB5152C0CFC04001CA69F /* Universal Bookmarks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E6DB5142C0CFC04001CA69F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E6DB5232C0CFC05001CA69F /* Preview Assets.xcassets in Resources */,
+				5E6DB5202C0CFC05001CA69F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E6DB5122C0CFC04001CA69F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E6DB5392C0CFE17001CA69F /* BookmarkView.swift in Sources */,
+				5E6DB5382C0CFE17001CA69F /* BookmarksScrollerView.swift in Sources */,
+				5E6DB5402C0D0BB4001CA69F /* BrowserLoadingView.swift in Sources */,
+				5E6DB53E2C0CFE3C001CA69F /* BrowserTools.swift in Sources */,
+				5E6DB5372C0CFE17001CA69F /* AddBookmarkView.swift in Sources */,
+				5E6DB51C2C0CFC04001CA69F /* ContentView.swift in Sources */,
+				5E6DB53B2C0CFE17001CA69F /* TopMenuView.swift in Sources */,
+				5E6DB5302C0CFCC9001CA69F /* Browser.swift in Sources */,
+				5E6DB53A2C0CFE17001CA69F /* EditBookmarkView.swift in Sources */,
+				5E6DB52F2C0CFCC9001CA69F /* BookmarkDataContainer.swift in Sources */,
+				5E6DB51A2C0CFC04001CA69F /* UniversalBookmarksApp.swift in Sources */,
+				5E6DB52E2C0CFCC9001CA69F /* Bookmark.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5E6DB5252C0CFC05001CA69F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5E6DB5262C0CFC05001CA69F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		5E6DB5282C0CFC05001CA69F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = MacOS/UniversalBookmarks.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "MacOS/Preview\\ Content";
+				DEVELOPMENT_TEAM = U96KFXXS2U;
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Universal Bookmarks";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.JamesArnett.Universal-Bookmarks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5E6DB5292C0CFC05001CA69F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = MacOS/UniversalBookmarks.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "MacOS/Preview\\ Content";
+				DEVELOPMENT_TEAM = U96KFXXS2U;
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Universal Bookmarks";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.JamesArnett.Universal-Bookmarks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E6DB5112C0CFC04001CA69F /* Build configuration list for PBXProject "Universal Bookmarks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E6DB5252C0CFC05001CA69F /* Debug */,
+				5E6DB5262C0CFC05001CA69F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E6DB5272C0CFC05001CA69F /* Build configuration list for PBXNativeTarget "Universal Bookmarks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E6DB5282C0CFC05001CA69F /* Debug */,
+				5E6DB5292C0CFC05001CA69F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E6DB50E2C0CFC04001CA69F /* Project object */;
+}
