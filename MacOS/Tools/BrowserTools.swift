@@ -14,7 +14,8 @@ func getInstalledBrowsers() -> [Browser] {
         "com.apple.Safari",
         "com.google.Chrome",
         "org.mozilla.firefox",
-        "com.microsoft.edgemac"
+        "com.microsoft.edgemac",
+        "com.brave.browser"
         // Add more browser bundle identifiers as needed
     ]
     
